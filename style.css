@@ -120,6 +120,7 @@ em {
 
 .mood-image-container > img {
   max-width: 100%;
+  border: 1px dashed #ddd;
 }
 
 a.imdb-link {
