@@ -71,12 +71,13 @@ em {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top: 1px solid #ddd;
 }
 
 .container {
   flex-grow: 1;
-  /* 2rem and 1px for header padding and border */
-  height: calc(90vh - 2rem - 1px);
+  /* 2rem and 1px for header padding and border, and 1px for footer border */
+  height: calc(90vh - 2rem - 1px - 1px);
   overflow: auto;
   display: flex;
 }
