@@ -1,135 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Dulguun Nyam-Ochir</title>
-</head>
-<body>
-  <div id="particles-js">
-  <div style="display: flex; flex-direction:column; align-items: center;">
-    <h1> Dulguun Nyam-Ochir </h1>
-  <div>
-    <img src="dulguun.jpg" alt="Profile picture" width="300" height="300" style="border-radius: 20px;">
-  </div>
-  <ul>
-    <li>W1D1 - Home Page</li>
-</ul>
-    <a href="https://validator.w3.org/nu/?doc=https://dulguunnyamochir.github.io/">
- <img src="https://manalabs.org/img/w3c-html.png" alt="Test"/>
-</a>
-  </div>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.js" integrity="sha512-BgV3bZfMmUklIZI+dP0SILdmQ0RBY2gxegFFyfgo4Ui56WhKF4Pny9LsV/l96jxDDA+2w47zAXA4IyHo2UT/Qg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script>
-    particlesJS('particles-js',{
-  "particles": {
-    "number": {
-      "value": 80,
-      "density": {
-        "enable": true,
-        "value_area": 800
-      }
-    },
-    "color": {
-      "value": "#e1b2b2"
-    },
-    "shape": {
-      "type": "circle",
-      "stroke": {
-        "width": 0,
-        "color": "#000000"
-      },
-      "polygon": {
-        "nb_sides": 5
-      },
-      "image": {
-        "src": "img/github.svg",
-        "width": 100,
-        "height": 100
-      }
-    },
-    "opacity": {
-      "value": 0.5,
-      "random": false,
-      "anim": {
-        "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
-        "sync": false
-      }
-    },
-    "size": {
-      "value": 3,
-      "random": true,
-      "anim": {
-        "enable": false,
-        "speed": 40,
-        "size_min": 0.1,
-        "sync": false
-      }
-    },
-    "line_linked": {
-      "enable": true,
-      "distance": 150,
-      "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 1
-    },
-    "move": {
-      "enable": true,
-      "speed": 6,
-      "direction": "none",
-      "random": false,
-      "straight": false,
-      "out_mode": "out",
-      "bounce": false,
-      "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
-      }
-    }
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": true,
-        "mode": "repulse"
-      },
-      "onclick": {
-        "enable": true,
-        "mode": "push"
-      },
-      "resize": true
-    },
-    "modes": {
-      "grab": {
-        "distance": 400,
-        "line_linked": {
-          "opacity": 1
-        }
-      },
-      "bubble": {
-        "distance": 400,
-        "size": 40,
-        "duration": 2,
-        "opacity": 8,
-        "speed": 3
-      },
-      "repulse": {
-        "distance": 200,
-        "duration": 0.4
-      },
-      "push": {
-        "particles_nb": 4
-      },
-      "remove": {
-        "particles_nb": 2
-      }
-    }
-  },
-  "retina_detect": true
-});
-  </script>
-</body>
+  <head>
+    <title>Dulguun Nyam-Ochir</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-content">
+        <span> Home Page</span>
+      </div>
+    </header>
+    <div class="container">
+      <div class="left-pane">
+        <div class="left-pane-top">
+          <h1>Dulguun Nyam-Ochir</h1>
+          <div>
+            <img
+              id="profile-pic"
+              src="assets/dulguun.jpg"
+              alt="Profile picture"
+            />
+          </div>
+          <ul>
+            <li class="done">W1D1 - Home Page</li>
+            <li class="done"><a href="aboutme.html">W1D2 - About me</a></li>
+            <li >W1D3 - Recipe</a></li>
+            <li >W1D4 - Movie review</a></li>
+            <li >W1D5 - MP3 Library</a></li>
+            <li >W1D6 - Some other thing</a></li>
+          </ul>
+        </div>
+        <div class="left-pane-tests">
+          <a
+            href="https://validator.w3.org/nu/?doc=https://dulguunnyamochir.github.io/"
+          >
+            <img src="https://manalabs.org/img/w3c-html.png" alt="Test html" />
+          </a>
+          <a
+            href="http://jigsaw.w3.org/css-validator/validator?uri=https://dulguunnyamochir.github.io/"
+          >
+            <img src="https://manalabs.org/img/w3c-css.png" alt="Test css" />
+          </a>
+        </div>
+      </div>
+
+      <div class="content home-page-content">
+        <section class="home-page">
+          Welcome to the Home page!
+        </section>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <span>
+          made with
+          <img id="footer-image" src="assets/heart.png" alt="heart picture" />
+          by Dulguun
+        </span>
+      </div>
+    </footer>
+  </body>
 </html>
