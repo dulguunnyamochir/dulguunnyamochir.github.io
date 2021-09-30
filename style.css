@@ -91,6 +91,7 @@ em {
   border-right: 1px solid #eee;
   display: flex;
   flex-direction: column;
+  overflow: auto;
 }
 
 .left-pane-top {
