@@ -24,7 +24,7 @@
 .responsive-container {
     display: flex;
     flex-direction: column;
-    font-weight: 6bold;
+    font-weight: bold;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
