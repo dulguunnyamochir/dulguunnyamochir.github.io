@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="../assets/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="p-2 bg-primary text-white">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start p-1">
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-4 py-1 text-white fs-5">MUM Golden Dome Market : : : SRM System</a>
+                </li>
+                <li><a href="#" class="nav-link px-4 text-white border-start">Products</a></li>
+                <li><a href="#" class="nav-link px-4 text-white border-start">Suppliers</a></li>
+            </ul>
+
+            <div class="d-flex align-items-center">
+                <span class="me-2">Hello!</span>
+                <button type="button" class="btn btn-light ms-1">Sign out</button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h1 class="fs-3 fw-normal my-4">New Product Form</h1>
+        <form class="row g-3">
+            <div class="col-6">
+                <label for="inputPNumber" class="form-label">Product Number</label>
+                <input type="text" class="form-control" id="inputPNumber">
+            </div>
+            <div class="col-6">
+                <label for="inputQuantity" class="form-label">Quantity in stock</label>
+                <input type="number" class="form-control" id="inputQuantity" value="0">
+            </div>
+            <div class="col-6">
+                <label for="inputName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="inputName">
+            </div>
+            <div class="col-6">
+                <label for="inputSupplier" class="form-label">Supplier:</label>
+                <select id="inputSupplier" class="form-select">
+                    <option selected>Select supplier...</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="col-6">
+                <label for="inputPrice" class="form-label">Unit Price</label>
+                <input type="number" class="form-control" id="inputPrice" value="0.0">
+            </div>
+            <div class="col-6">
+                <label for="inputDate" class="form-label">Date supplied</label>
+                <input type="date" class="form-control" id="inputDate">
+            </div>
+
+            <div class="col-12 text-end">
+                <button type="submit" class="btn btn-outline-secondary">Reset</button>
+                <button type="submit" class="btn btn-outline-danger ms-4">Cancel</button>
+                <button type="submit" class="btn btn-outline-primary ms-4">Add Product</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
