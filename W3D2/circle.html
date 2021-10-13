@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head lang="en">
+  <meta charset="UTF-8" />
+  <title>Circles</title>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+  <link rel="stylesheet" href="../assets/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+<body>
+  <div id="circle-container"></div>
+  <div class="form-container form-group">
+    <div class="control-container">
+      <label for="width"> Width</label>
+      <input
+        type="number"
+        class="form-control"
+        name="width"
+        id="width"
+        min="0"
+        step="1"
+        value="50"
+      />
+    </div>
+    <div class="control-container">
+      <label for="gamount"> Growth amount </label>
+      <input
+        type="number"
+        class="form-control"
+        name="gamount"
+        id="gamount"
+        min="0"
+        step="1"
+        value="10"
+      />
+    </div>
+    <div class="control-container">
+      <label for="grate"> Growth rate</label>
+      <input
+        type="number"
+        class="form-control"
+        name="grate"
+        id="grate"
+        min="0"
+        step="100"
+        value="250"
+      />
+    </div>
+    <div class="control-container">
+      <label for="ncircles"> Number of Circles</label>
+      <input
+        type="number"
+        class="form-control"
+        name="ncircles"
+        id="ncircles"
+        min="0"
+        step="1"
+        value="10"
+      />
+    </div>
+    <div class="button-container">
+      <button id="start-btn" type="button" class="btn btn-primary">
+        Start
+      </button>
+    </div>
+  </div>
+</body>

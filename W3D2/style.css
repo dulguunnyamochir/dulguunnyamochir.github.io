@@ -1,0 +1,30 @@
+.form-container {
+  position: fixed;
+  bottom: 1vh;
+  left: 1vh;
+  border: 1px solid #eee;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.button-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1000;
+}
+
+.button-container button {
+  flex-grow: 1;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle:hover {
+    /* background-color: black; */
+    opacity: 0.4;
+}
