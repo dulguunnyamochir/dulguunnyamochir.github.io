@@ -1,0 +1,68 @@
+#maze {
+  margin: auto;
+  position: relative;
+  height: 300px;
+  width: 600px;
+}
+
+#maze #end {
+  right: 3px;
+  top: 155px;
+}
+
+#maze div#add1 {
+  top: 0px;
+  left: 499px;
+  border: none;
+  z-index: 2;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#maze div#add2 {
+  left: 505px;
+  top: 200px;
+  height: 98px;
+  width: 92px;
+  border: 1px solid black;
+}
+
+#maze div#add5 {
+  z-index: 4;
+}
+
+#maze div.boundary + div.boundary + div.boundary {
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  z-index: 1;
+  left: 348px;
+  height: 236px;
+  width: 150px;
+}
+
+#maze div#add4 {
+  width: 505px;
+  border-right: none;
+  z-index: 3;
+}
+#trap {
+  width: 5px;
+  height: 5px;
+  /* background-color: red; */
+  position: absolute;
+  top: 210px;
+  right: 95px;
+}
+
+.trap {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-image: url('../assets/scary.jpg');
+  background-position: center;
+  z-index: 10;
+  display:none;
+}
