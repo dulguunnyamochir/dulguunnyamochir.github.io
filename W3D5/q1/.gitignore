@@ -8,7 +8,7 @@
 
 # Local History for Visual Studio Code
 .history/
-node_modules/
+node_modules/*
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
