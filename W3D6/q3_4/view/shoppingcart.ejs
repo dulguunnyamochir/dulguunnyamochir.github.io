@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Shopping cart</title>
+  </head>
+  <body>
+    <div>
+      <% for(let i of cart) { %>
+      <div>
+        Name: <%= i.name %> Price: <%= i.price %> Quantity: <%= i.quantity %>
+      </div>
+      <% } %>
+    </div>
+  </body>
+</html>
