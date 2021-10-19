@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Shop</title>
+  </head>
+  <body>
+    <form action="/addToCart" method="post">
+      <h1>Product detail of id: <%= prod.id %></h1>
+      <div>Name: <%= prod.name %></div>
+      <input type="text" name="name" value="<%= prod.name %>" hidden />
+      <div>Price: <%= prod.price %></div>
+      <input type="text" name="price" value="<%= prod.price %>" hidden />
+      <button type="submit">Add to cart</button>
+    </form>
+  </body>
+</html>

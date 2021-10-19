@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Shop</title>
+  </head>
+  <body>
+    <div>
+      <% for(let i of products) { %>
+      <div>
+        Name: <%= i.name %> Price: <%= i.price %>
+        <a href="/product?id=<%=i.id %>"> Detail</a>
+      </div>
+      <% } %>
+    </div>
+  </body>
+</html>
